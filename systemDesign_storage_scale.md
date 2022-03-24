@@ -117,12 +117,16 @@
              * 肿么办？-- 铛铛铛 **consistent hashing** ！
                * `mod`得大一点啊。。。  比如`360`
                  * 所以`mod`的结果没有变 变的只是机器的mapping关系 -- 这个区间分配关系存在web server上
-                 * 所以只是挪动数据在机器间                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                 * 所以只是挪动数据在机器间                                                                         
      * replication 
        * 一般重复三份
        * 且还可以读写分离
-       * 
- 
-
-
- 
+8. refs
+   * cache:
+     * Dynamo: Amazon’s Highly Available Key-value Store https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+     * Scaling Memcache at Facebook https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+   * consistent hashing:
+     * Consistent hashing https://michaelnielsen.org/blog/consistent-hashing/
+     * 一致性hash算法 - consistent hashing https://blog.csdn.net/sparkliang/article/details/5279393
+   * others:
+     * Coach Base Architecture: http://horicky.blogspot.com/2012/07/couchbase-architecture.html
