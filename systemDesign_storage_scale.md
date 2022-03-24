@@ -128,5 +128,5 @@
    * consistent hashing:
      * Consistent hashing https://michaelnielsen.org/blog/consistent-hashing/
      * 一致性hash算法 - consistent hashing https://blog.csdn.net/sparkliang/article/details/5279393
-   * others:
+   * nosql db:
      * Coach Base Architecture: http://horicky.blogspot.com/2012/07/couchbase-architecture.html
