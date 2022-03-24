@@ -1,6 +1,6 @@
 1. 4S
 	1. scenario
-		1. 系统的volume对于系统的构建有质的影响
+		1. 系统的volume对于系统的构建有质的影响 **QPS的大小决定了数据存储系统的选择**
 		2. KPI
 			1. DAU  
 			2. given DAU=100m, 注册，登录，信息修改QPS约：
@@ -78,6 +78,7 @@
 		1. Redis架构之防雪崩设计：网站不宕机背后的兵法 ://www.jianshu.com/p/5c6f3ec161f1
 		2. Scaling Memcache at Facebook https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
 		3. How a Cache Stampede Caused One of Facebook’s Biggest Outages https://betterprogramming.pub/how-a-cache-stampede-caused-one-of-facebooks-biggest-outages-dbb964ffc8ed
+		4. Avoiding Cache Stampede at DoorDash https://doordash.engineering/2018/08/03/avoiding-cache-stampede-at-doordash/
 	3. system design:
 		1. System Design — Twitter Search  https://mecha-mind.medium.com/system-design-twitter-search-ccb29c48d9b6
 		2. System Design Interview: Twitter or Facebook Feed ://medium.com/double-pointer/system-design-interview-twitter-or-facebook-news-feed-f960f6d1fd70
