@@ -77,6 +77,7 @@
 	2. cache design
 		1. Redis架构之防雪崩设计：网站不宕机背后的兵法 ://www.jianshu.com/p/5c6f3ec161f1
 		2. Scaling Memcache at Facebook https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+		3. How a Cache Stampede Caused One of Facebook’s Biggest Outages https://betterprogramming.pub/how-a-cache-stampede-caused-one-of-facebooks-biggest-outages-dbb964ffc8ed
 	3. system design:
 		1. System Design — Twitter Search  https://mecha-mind.medium.com/system-design-twitter-search-ccb29c48d9b6
 		2. System Design Interview: Twitter or Facebook Feed ://medium.com/double-pointer/system-design-interview-twitter-or-facebook-news-feed-f960f6d1fd70
