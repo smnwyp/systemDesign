@@ -75,4 +75,46 @@
        * monitoring呀 HeartBeat
          * chunkservers->master
          * master只要监听即可
-         * 
+         * master一般管1k-2k机器
+   * 有replica时如何scale write？
+     *  以前写一台 现在要写好几台 client写会成为瓶颈咩
+     *  那就写完一个chunkserver后 让它populate 其他的chunkservers (through **leader election**)
+        * 找距离最近的(快）
+        * 找现在不干活的(平衡traffic)
+     *  如果chunkserver挂了咋办
+        * lead chunkserver挂了
+          * client要retry -- master分配个新的机器
+        * follower chunkserver挂了
+
+* hdfs vs. gfs
+  * 基本等价
+  * name node -> master
+  * data node -> chunkserver
+
+
+* Key Point: 
+  * Master-Slave
+  * Storage:
+    * Save a file in one machine -> a big file in one machine -> a extra big file in multi-machine
+    * Multi-machine
+      * How to use the master?
+      * How to traffic and storage of master?
+  * Read
+    * The process of reading a file
+  • Write:
+    * The process of writing a file
+    * How to reduce master traffic
+      * Client 和 Chunk Server沟通 
+    * How to reduce client traffic?
+      * Leader Election
+  * Failure and Recover (key)
+    * Discover the failure a chunk? 
+      * Check Sum
+    * Avoid the failure a chunk? 
+      * Replica
+    * Recover the failure?
+    * Ask master
+    * Discover the failure of the chunkserver? 
+      * Heart Beat
+    * Solve the failure of writing ChunkServer? 
+      * Retry
