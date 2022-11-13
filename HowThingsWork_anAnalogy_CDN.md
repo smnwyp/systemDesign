@@ -22,9 +22,9 @@ Oh I'm in Hamburg Hauptbahnhof atm.
 #### Convo2 (`DNS resolver` <-> `Authoritative Name Server for website`, resolves to `cdn`)
 `Butler` looks up his little notebook, blanks... so he calls up his contact buddy, `C1`:
 - `Bulter`: hey there, long time! Do you know where is _Shiba Wuff_ in this dreaful town, I mean, Hamburg Hauptbahnhof?
-- `C1`: a sec! Well, aren't you lucky! We are not one of those snobbish exclusive restaurants with only one branch in the world,
-that would so sad right, every time you want to dine with us you have to take all the trouble to travel lol!  **_(in the case WITHOUT cdn)_**.
-We decided that we shall have branches all over the world, we have to be wherever you crave our food **_(in the case WITH cdn)_**! Here, this is the no. of the **contact person from their headquater**, `C2`.
+- `C1`: a sec! Well, aren't you lucky! _Shiba Wuff_ is NOT one of those snobbish exclusive restaurants with only one branch in the world,
+that would so sad right, every time you want to dine with them you have to take all the trouble to travel lol!  **_(in the case WITHOUT cdn)_**.
+They believe that they shall have branches all over the world, they have to be wherever you crave their food **_(in the case WITH cdn)_**! Here, this is the no. of the **contact person from their headquater**, `C2`.
 Wuff be with you.
 - `Butler`: Wuff right back at you.
 
